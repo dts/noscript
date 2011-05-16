@@ -149,12 +149,38 @@ const IOUtil = {
   readFile: IO.readFile,
   writeFile: IO.writeFile,
   safeWriteFIle: IO.safeWriteFile,
+
+    // This function is designed to not use IOService, because using IOService before
+    // other add-ons initialize can cause them to malfunction.
+
+  newURI: function(spec) {
+      var scheme,handler,uri;
+      // Get the "scheme" of the URL in the simplest possible way, the text before the first
+      // colon.
+
+      // Note: String.substring(0,-1) returns ""
+
+      scheme = spec.substring(0,spec.indexOf(":"));
+
+      try {
+	  // Look up the appropriate protocol handler:
+	  handler = CC["@mozilla.org/network/protocol;1?name="+scheme].getService(Ci.nsIProtocolHandler);
+
+	  // And get a nsIURI out of it
+	  uri = handler.newURI(spec,null,null);
+      } catch(x) {
+	  uri = null;
+      }
+      
+      if(uri) return uri;
+      // If an error occurred, use the regular IOService - too bad for other add-ons
+      return IOS.newURI(spec);
+  },    
   
   unwrapURL: function(url) {
-    
     try {
       if (!(url instanceof CI.nsIURI))
-        url = IOS.newURI(url, null, null);
+	  url = this.newURI(url);
       
       switch (url.scheme) {
         case "view-source":
