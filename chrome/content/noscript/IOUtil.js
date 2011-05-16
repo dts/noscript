@@ -166,10 +166,8 @@ const IOUtil = {
 	  // Look up the appropriate protocol handler:
 	  handler = CC["@mozilla.org/network/protocol;1?name="+scheme].getService(CI.nsIProtocolHandler);
 
-	  dump(" Got handler for "+scheme+" - "+handler+"\n");
 	  // And get a nsIURI out of it
 	  uri = handler.newURI(spec,null,null);
-	  dump("URI: "+uri.spec+"\n");
       } catch(x) {
 	  dump("Error "+x+"\n"+x.stack+"\n");
 	  uri = null;
