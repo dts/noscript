@@ -1,0 +1,186 @@
+<!ENTITY noscriptOptions "הגדרות...">
+<!ENTITY noscriptOptions.accesskey "ג">
+<!ENTITY noscriptOptionsLong "הגדרות נוסקריפט">
+<!ENTITY noscriptAbout "על אודות נוסקריפט">
+<!ENTITY noscriptPermissionsText "באפשרותך להגדיר לאילו אתרים יותר להפעיל סקריפטים.  יש להזין את כתובת האתר או המתחם (דומיין), למשל http://www.site.com או site.com, של האתר שברצונך לאשר, וללחוץ על התר.">
+<!ENTITY noscriptWebAddress "כתובת אתר:">
+<!ENTITY noscriptAllow "התר">
+<!ENTITY noscriptAllow.accesskey "ה">
+<!ENTITY noscriptForbid "אסור">
+<!ENTITY noscriptForbid.accesskey "א">
+<!ENTITY noscriptTrust "סמוך על אתר זה">
+<!ENTITY noscriptTrust.accesskey "ס">
+<!ENTITY noscriptUntrust "אל תסמוך על אתר זה">
+<!ENTITY noscriptUntrust.accesskey "ת">
+<!ENTITY noscriptRemoveSelected "הסר אתרים נבחרים">
+<!ENTITY noscriptGloballyEnabled "סקריפטים מותרים בכל אתר (מסוכן)">
+<!ENTITY noscriptAutoReload "טען מחדש דפים שמושפעים משינוי הרשאות באופן אוטומטי">
+<!ENTITY noscriptGeneral "כללי">
+<!ENTITY noscriptAppearance "תצוגה">
+<!ENTITY noscriptShow "הצג...">
+<!ENTITY noscriptCtxMenu "תפריט הקשר">
+<!ENTITY noscriptStatusIcon "צלמית שורת מצב">
+<!ENTITY noscriptFullAddr "כתובות מלאות (http://www.noscript.net)">
+<!ENTITY noscriptFullDom "מתחמים מלאים (www.noscript.net)">
+<!ENTITY noscriptBaseDom "מתחמי בסיס ברמה שנייה (noscript.net)">
+<!ENTITY noscriptTempCmd "זמנית התר [...]">
+<!ENTITY noscriptSound "תן משוב צלילי כשסקריפטים נחסמים">
+<!ENTITY noscriptImport "יבא">
+<!ENTITY noscriptImport.accesskey "י">
+<!ENTITY noscriptExport "יצא">
+<!ENTITY noscriptExport.accesskey "צ">
+<!ENTITY noscriptNotify "הצג הודעה בדבר סקריפטים נחסמים">
+<!ENTITY noscriptNotify.bottom "מקם הודעות בתחתית">
+<!ENTITY noscriptSound.choose "נא לבחור">
+<!ENTITY noscriptSound.choose.accesskey "ב">
+<!ENTITY noscriptSound.play "השמע">
+<!ENTITY noscriptSound.play.accesskey "ש">
+<!ENTITY noscriptSound.reset "חזור לברירת מחדל">
+<!ENTITY noscriptSound.reset.accesskey "ח">
+<!ENTITY noscriptAdvanced "אפשרויות מתקדמות">
+<!ENTITY noscriptAdditionalPermissions "הרשאות נוספות לאתרים מורשים">
+<!ENTITY noscriptAllowClipboard "התר העתקה והדבקה של טקסט עשיר (rich text) מהלוח החיצוני">
+<!ENTITY noscriptAdditionalRestrictions "הגבלות נוספות על אתרים בלתי-מורשים">
+<!ENTITY noscriptPlugins "Plugins">
+<!ENTITY noscriptContentBlocker "Apply these restrictions to trusted sites too">
+<!ENTITY noscriptForbidJava "אסור על ג&apos;אוה">
+<!ENTITY noscriptForbidXSLT "Forbid XSLT">
+<!ENTITY noscriptForbidWebBugs "אסור על &quot;Web Bugs&quot;">
+<!ENTITY noscriptForbidSilverlight "אסור על Microsoft® Silverlight™">
+<!ENTITY noscriptForbidIFrames "אסור על &lt;IFRAME&gt;">
+<!ENTITY noscriptForbidFrames "אסור על &lt;FRAME&gt;">
+<!ENTITY noscriptForbidFonts "אסור על @font-face">
+<!ENTITY noscriptForbidMedia "אסור על &lt;AUDIO&gt; / &lt;VIDEO&gt;">
+<!ENTITY noscriptForbidFlash "אסור על פלאש">
+<!ENTITY noscriptForbidPlugins "אסור על תוספים אחרים">
+<!ENTITY noscriptReloadWarn "אפשרויות אלו ייכנסו לתוקף בדפים חדשים או דפים שנטענו מחדש ידנית">
+<!ENTITY noscriptConfirmUnblock "בקש אישור לפני התרה זמנית של פריט">
+<!ENTITY noscriptStatusLabel "כותרת שורת מצב">
+<!ENTITY noscriptForbidBookmarklets "אסור על יישומי-סימניה (bookmarklets)">
+<!ENTITY noscriptShowPlaceholder "הצג צלמית כתחליף">
+<!ENTITY noscriptTruncateTitle "קצר כותרות דפים">
+<!ENTITY noscriptFixLinks "נסה לתקן קישוריות ג&apos;אוהסקריפט">
+<!ENTITY noscriptAllowBookmarks "סמוך על אתרים שנפתחו דרך סימניות">
+<!ENTITY noscriptAllowViaBookmarks "סמוך על אתרים שנפתחו דרך סימניות">
+<!ENTITY noscriptAllowPing "התר &lt;A PING...&gt;">
+<!ENTITY noscriptAllowLocalLinks "התר קישוריות מקומיות">
+<!ENTITY noscriptForbidPing "אסור &lt;A PING...&gt;">
+<!ENTITY noscriptForbidMetaRefresh "אסור על הפניות META בתוך תגיות &lt;NOSCRIPT&gt;">
+<!ENTITY noscriptForbidMetaRefresh.accesskey "R">
+<!ENTITY noscriptWhitelist "רשימת מותרים">
+<!ENTITY noscriptPermissions "הרשאות">
+<!ENTITY noscriptRefresh "טען מחדש">
+<!ENTITY noscriptNotifications "הודעות">
+<!ENTITY noscriptToolbarToggle "הקלקה על סרגל הכלים של נוסקריפט מדליקה/מכבה הרשאות לאתר הראשי הנוכחי">
+<!ENTITY noscriptTrusted "אתר אמין">
+<!ENTITY noscriptUntrusted "אתר לא אמין">
+<!ENTITY noscriptUnknown "לא ידוע">
+<!ENTITY noscriptAdd "הוסף">
+<!ENTITY noscriptAdd.accesskey "ה">
+<!ENTITY noscriptClose "סגור">
+<!ENTITY noscriptSiteManager "מנהל אתר">
+<!ENTITY noscriptSecurityManager "מנהל אבטחה">
+<!ENTITY noscriptPolicies "הגדרות">
+<!ENTITY noscriptDefaultPolicies "הגדרות ברירת מחדל">
+<!ENTITY noscriptSitePolicies "הגדרות ספציפיות לאתר">
+<!ENTITY noscriptNselNever "הסתר תגיות &lt;NOSCRIPT&gt;">
+<!ENTITY noscriptNselForce "הצג את תגית ה-&lt;NOSCRIPT&gt; שבאה אחרי &lt;SCRIPT&gt; חסום.">
+<!ENTITY noscriptAutoAllowTopLevel "כברירת מחדל, התר אתרים ראשיים באופן זמני">
+<!ENTITY noscriptDescription "הגנה מורחבת לפיירפוקס: נוסקריפט מאפשר ג&apos;אוהסקריפט, ג&apos;אוה (ותוספים אחרים) רק לאתרים מורשים לבחירתך (למשל, אתר הבנק).  גישה זו, של חסימה מראש על בסיס רשימת-מותרים, מונעת ניצול של פרצות אבטחה (מוכרות ואף בלתי-מוכרות!) בלי לאבד פונקציונליות... מומחים מסכימים: פיירפוקס בטוח יותר עם נוסקריפט. :-)">
+<!ENTITY noscriptOptBlockCssScanners "חסום סורקים מבוססי-CSS">
+<!ENTITY noscriptOptFilterXGet "בטל בקשות חשודות לאתרים מצד שלישי">
+<!ENTITY noscriptOptFilterXPost "הפוך בקשות POST מאתרים מצד שלישי לבקשות GET ללא נתונים נלווים">
+<!ENTITY noscriptShowConsole "הצג מסוף...">
+<!ENTITY noscriptShowConsole.accesskey "מ">
+<!ENTITY noscriptXss "XSS (סקריפטים מאתרים מצד שלישי)">
+<!ENTITY noscriptXss.accesskey "X">
+<!ENTITY noscriptXssFaq "שאלות ותשובות על XSS">
+<!ENTITY noscriptXssFaq.accesskey "ש">
+<!ENTITY noscriptUnsafeReload "טעינה מחדש בשיטה בלתי בטוחה">
+<!ENTITY noscriptUnsafeReload.accesskey "ב">
+<!ENTITY noscriptXssExceptions "יוצאים מכלל ההגנה נגד XSS">
+<!ENTITY noscriptXssExceptions.description "ביעדים שמתאימים לביטויים הרגולריים האלה *לא* תיחסם אפשרות XSS">
+<!ENTITY noscriptMatchSample "דוגמה לביטוי רגולרי">
+<!ENTITY noscriptReset "אתחל">
+<!ENTITY noscriptReset.accesskey "א">
+<!ENTITY noscriptResetDef "אתחל חזרה לברירת מחדל">
+<!ENTITY noscriptResetDef.accesskey "ל">
+<!ENTITY noscriptOptionsWidth "40em">
+<!ENTITY noscriptRevokeTemp "בטל הרשאה זמנית">
+<!ENTITY noscriptRevokeTemp.accesskey "ט">
+<!ENTITY noscriptNoUntrustedPlaceholder "אל תציב ממלאי-מקום במקום פריטים מאתרים אסורים">
+<!ENTITY noscriptCollapseBlockedObjects "צמצם פריטים חסומים">
+<!ENTITY noscriptExceptions "Exceptions...">
+<!ENTITY noscriptBlockedObjects "Blocked Objects">
+<!ENTITY noscriptAlwaysBlockUntrustedContent "Block every object coming from a site marked as untrusted">
+<!ENTITY noscriptTempAllowPage "Temporarily allow all this page">
+<!ENTITY noscriptTempAllowPage.accesskey "P">
+<!ENTITY noscriptAllowPage "Allow all this page">
+<!ENTITY noscriptAllowPage.accesskey "A">
+<!ENTITY noscriptTempToPerm "Make page permissions permanent">
+<!ENTITY noscriptTempToPerm.accesskey "m">
+<!ENTITY noscriptHttps "HTTPS">
+<!ENTITY noscriptHttpsFaq "HTTPS FAQ…">
+<!ENTITY noscriptHttpsFaq.accesskey "Q">
+<!ENTITY noscriptHttps.behavior "Behavior">
+<!ENTITY noscriptHttps.cookies "Cookies">
+<!ENTITY noscriptHttps.description "Forbid active web content unless it comes from a secure (HTTPS) connection:">
+<!ENTITY noscriptHttps.never "Never">
+<!ENTITY noscriptHttps.proxy "When using a proxy (recommended with Tor)">
+<!ENTITY noscriptHttps.always "Always">
+<!ENTITY noscriptHttpsForced "Force the following sites to use secure (HTTPS) connections:">
+<!ENTITY noscriptHttpsForcedExceptions "Never force secure (HTTPS) connections for the following sites:">
+<!ENTITY noscriptSecureCookies "Enable Automatic Secure Cookies Management">
+<!ENTITY noscriptSecureCookiesForced "Force encryption for all the cookies set over HTTPS by the following sites:">
+<!ENTITY noscriptSecureCookiesExceptions "Ignore unsafe cookies set over HTTPS by the following sites:">
+<!ENTITY noscriptClearClickTitle "ClearClick Warning">
+<!ENTITY noscriptClearClickHeader "Potential Clickjacking / UI Redressing Attempt!">
+<!ENTITY noscriptClearClickDescription "NoScript intercepted a mouse or keyboard interaction with a partially hidden element. Click on the image above to cycle beetween the obstructed and the clear version.">
+<!ENTITY noscriptClearClickOpt "ClearClick protection on pages…">
+<!ENTITY noscriptClearClickReport "Report">
+<!ENTITY noscriptClearClickReport.accesskey "R">
+<!ENTITY noscriptClearClickReportId "Report ID:">
+<!ENTITY noscriptTrustedPagesAdj "trusted">
+<!ENTITY noscriptUntrustedPagesAdj "untrusted">
+<!ENTITY noscriptKeepLocked "Keep this element locked (recommended)">
+<!ENTITY noscriptEmbeddings "Embedded Objects">
+<!ENTITY noscriptPrev "Previuous">
+<!ENTITY noscriptNext "Next">
+<!ENTITY noscriptFrameOptErr.title "This content cannot be displayed in a frame">
+<!ENTITY noscriptFrameOptErr.desc "To protect your security, the publisher of this content does not allow it to be displayed in a frame.">
+<!ENTITY noscriptFrameOptErr.link "Click here to open this content in a new window">
+<!ENTITY noscriptBookmarkSync "Backup NoScript configuration in a bookmark for easy synchronization">
+<!ENTITY noscriptNotifyMeta "Show message about blocked META redirections">
+<!ENTITY noscriptNotifyMeta.accesskey "R">
+<!ENTITY noscriptShowReleaseNotes "Display the release notes on updates">
+<!ENTITY ABE "ABE">
+<!ENTITY ABE.accesskey "A">
+<!ENTITY ABE.rulesets.label "Rulesets:">
+<!ENTITY ABE.enabled.label "Enable ABE (Application Boundaries Enforcer)">
+<!ENTITY ABE.siteEnabled.label "Allow sites to push their own rulesets">
+<!ENTITY ABE.edit.label "Edit…">
+<!ENTITY ABE.edit.accesskey "E">
+<!ENTITY ABE.enable.label "Enable">
+<!ENTITY ABE.enable.accesskey "n">
+<!ENTITY ABE.disable.label "Disable">
+<!ENTITY ABE.disable.accesskey "D">
+<!ENTITY ABE.refresh.label "Refresh">
+<!ENTITY ABE.refresh.accesskey "R">
+<!ENTITY noscriptUninstall "Uninstall">
+<!ENTITY noscriptRecentBlocked "Recently blocked sites">
+<!ENTITY noscriptExternalFilters "External Filters">
+<!ENTITY noscriptEF.enable "Enable external filters">
+<!ENTITY noscriptEF.add "New Filter…">
+<!ENTITY noscriptEF.executable "Executable file:">
+<!ENTITY noscriptEF.browse "Browse…">
+<!ENTITY noscriptEF.contentType "Content type (MIME) to be filtered (exact match or regular expression):">
+<!ENTITY noscriptEF.exceptions "Do not filter objects coming from these sites:">
+<!ENTITY noscriptEF.remove "Remove">
+<!ENTITY noscriptPreset "Security Level">
+<!ENTITY noscriptPreset.off "Off (are you serious?!)">
+<!ENTITY noscriptPreset.low "Easy going (Blacklist + Web Security)">
+<!ENTITY noscriptPreset.medium "Classic (Whitelist + Web Security)">
+<!ENTITY noscriptPreset.high "Fortress (Full lockdown)">
+<!ENTITY noscript.hoverUI "Open permissions menu when mouse hovers over NoScript's icon">
+<!ENTITY noscriptDonate "Donate">
+<!ENTITY noscriptDonate.accesskey "o">
