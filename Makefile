@@ -16,7 +16,4 @@ $(TARGET): chrome/noscript.jar FORCE
 chrome/noscript.jar: FORCE
 	( cd chrome ; $(JAR) cvf noscript.jar content locale skin ; cd .. )
 
-test: $(TARGET)
-	open $(TARGET) -a Firefox
-
 FORCE: 
